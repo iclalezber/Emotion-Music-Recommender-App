@@ -35,18 +35,20 @@ This is a web-based application that uses Natural Language Processing (NLP) to a
 ---
 
 ## 📁 Project Structure
-
+```
 Emotion_Music_Recommender_App/
 │
-├── app.py # Flask application
-├── emotion_model.pkl # Trained emotion classifier
-├── label_encoder.pkl # LabelEncoder for emotion mapping
-├── templates/
-│ └── index.html # Web UI
-├── static/
-│ └── style.css # CSS styles
-└── songs.json # Playlist JSON by emotion
-
+├── app.py                   # Flask application entry point
+├── emotion_model.pkl        # Trained emotion classifier model
+├── label_encoder.pkl        # LabelEncoder for mapping emotion labels
+├── songs.json               # JSON file with emotion-based music list
+│
+├── templates/               # HTML templates
+│   └── index.html           # Main user interface
+│
+└── static/                  # Static files (CSS, JS, images)
+    └── style.css            # Custom styles for the UI
+```
 
 ---
 
